@@ -1,6 +1,6 @@
-Army version of [2048](http://gabrielecirulli.github.io/2048/) game
+Army version of [65536](https://www.csie.ntu.edu.tw/~b01902112/65536/) game
 ===================================================================
 
-Play here: http://git.io/army
+Play here: http://TheReal58.github.io/65536-ARMY
 
-[![2048 ARMY](https://pbs.twimg.com/media/Bj6LMCtCAAAogbd.png:large)](http://git.io/army)
+[![65536 ARMY](https://pbs.twimg.com/media/Bj6LMCtCAAAogbd.png:large)](http://TheReal58.github.io/65536-ARMY)

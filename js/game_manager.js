@@ -37,7 +37,7 @@ GameManager.prototype.crowd = function () {
       counter++;
       var value = Math.pow(2, counter);
       var tile = new Tile({ x: j, y: i }, value);
-      if (value <= 2048) this.grid.insertTile(tile);    
+      if (value <= 65536) this.grid.insertTile(tile);    
     }
   }
 };
@@ -242,8 +242,8 @@ GameManager.prototype.move = function (direction) {
           // self.score += merged.value;
           if (merged.value > self.score) self.score = merged.value;
 
-          // The mighty 2048 tile
-          if (merged.value === 2048) self.won = true;
+          // The mighty 65536 tile
+          if (merged.value === 65536) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
